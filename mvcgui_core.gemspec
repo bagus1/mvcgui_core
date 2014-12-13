@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = MvcguiCore::VERSION
   spec.authors       = ["Bagus"]
   spec.email         = ["bagus1@github.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Provides core MVCGUI functionality.}
+  spec.description   = %q{This will provide a number of tables that store properties for core things like apps and fields and views. It provides models and controllers for them.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,13 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 2.6"
+  spec.add_development_dependency "simplecov", '~> 0.7.1'
+  spec.add_development_dependency 'spork-rails'
+  spec.add_development_dependency 'webmock'
+  spec.add_development_dependency 'rspec-rails'
+  spec.add_development_dependency 'pry'
+  spec.add_development_dependency 'pry-doc'
+  spec.add_development_dependency 'pry-debugger'
+  spec.add_development_dependency 'pry-rails'
 end
